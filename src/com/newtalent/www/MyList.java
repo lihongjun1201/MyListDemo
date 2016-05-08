@@ -62,7 +62,7 @@ public interface MyList<E> {
 	
 	
 	/**
-	 * 获取最后一个元素的索引位置
+	 * 获取该元素在数组中最后出现的索引位置
 	 * @param e
 	 * @return
 	 */

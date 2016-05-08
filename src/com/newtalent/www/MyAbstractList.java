@@ -39,20 +39,6 @@ public abstract class MyAbstractList<E> implements MyList<E> {
 	}
 
 
-
-	@Override
-	public boolean contains(E e) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public E get(int index) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
 	@Override
 	public boolean isEmpty() {
 		return 0 == size;
