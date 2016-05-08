@@ -143,9 +143,10 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
 		Node<E> currunt = head;
 		for (int index = 0; index < size; index++) {
 			if (currunt.element.equals(e)) {
-				showIndex[showTimes] = index;
-				showTimes++;
+				showIndex[showTimes+1] = index;
+				showTimes++;	
 			}
+			currunt = currunt.next;
 		}
 		return showIndex[showTimes];
 	}

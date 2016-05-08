@@ -4,6 +4,7 @@ public class TestMyList {
 
 	public static void main(String[] args) {
 		
+		
 		MyLinkedList<String> countryLinkedList = new MyLinkedList<String>();
 		
 		countryLinkedList.add("America");
@@ -36,7 +37,13 @@ public class TestMyList {
 		countryLinkedList.remove(countryLinkedList.size()-1);
 		System.out.println("10: " + countryLinkedList);
 		
+		countryLinkedList.add("Norway");
+		countryLinkedList.add("America");
+		countryLinkedList.add("china");
 		
+		System.out.println(countryLinkedList);
+		System.out.println(countryLinkedList.lastIndexOf("Norway"));
+		System.out.println(countryLinkedList.lastIndexOf("America"));
 
 //		MyArrayList<String> namesArrayList = new MyArrayList<String>();
 //		
